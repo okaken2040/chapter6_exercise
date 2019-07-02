@@ -1,4 +1,53 @@
 @charset "UTF-8";
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
+p {
+	color: #666666;
+}
 
+a {
+	color: #666666;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.main-visual {
+	height: 400px;
+	background-image: url(img/mv.jpg);
+	background-size: cover;
+	background-position: bottom;
+}
+
+.main-visual h1 {
+	padding: 20px 0 0 20px;
+	color: #666666;
+	font-size: 1.5rem;
+}
+
+main {
+	padding: 50px 0;
+}
+
+.main-wrapper {
+	width: 840px;
+	margin: 0 auto;
+	/* background-color: pink; */
+}
+
+section {
+	padding: 30px 0;
+	border-bottom: 1px solid #999999;
+}
+
+section:nth-child(1) {
+	padding: 0 0 30px 0;
+}
